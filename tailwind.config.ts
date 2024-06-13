@@ -8,9 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#F0F0F0",
+        btn: "#232323",
+      },
       backgroundColor: {
         main: "#1400FF",
         primary: "#ADFF00",
+        blk: "#232323",
       },
       borderColor: {
         primary: "#232323",
@@ -18,10 +23,8 @@ const config: Config = {
       fontFamily: {
         custom: ["var(--font-custom)"],
       },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      boxShadow: {
+        custom: "5px 5px 0px 0px white",
       },
     },
   },

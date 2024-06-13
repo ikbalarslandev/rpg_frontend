@@ -24,7 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={customFont.variable}>{children}</body>
+      <body
+        className={`${customFont.variable} bg-main flex flex-col items-center`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
